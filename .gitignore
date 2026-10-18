@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+*.log.tmp
+run_all.log
+
+# Adapters: only the final main run is committed
+adapters/*
+!adapters/main/
+adapters/main/*
+!adapters/main/epoch2/

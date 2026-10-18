@@ -1,0 +1,14 @@
+{"split": "test_id", "tag": "zero_shot", "n": 80, "sec_per_example": 7.41, "json_valid": 0.838, "json_strict": 0.8, "organism": 0.013, "assay": 0.175, "sample_size": 0.55, "all_fields": 0.0}
+{"split": "test_id", "tag": "few_shot", "n": 80, "sec_per_example": 10.99, "json_valid": 1.0, "json_strict": 1.0, "organism": 0.388, "assay": 0.362, "sample_size": 0.625, "all_fields": 0.062}
+{"split": "test_id", "tag": "lora-main-epoch1", "n": 80, "sec_per_example": 4.78, "json_valid": 1.0, "json_strict": 1.0, "organism": 1.0, "assay": 1.0, "sample_size": 1.0, "all_fields": 1.0}
+{"split": "test_id", "tag": "lora-main-epoch2", "n": 80, "sec_per_example": 4.82, "json_valid": 1.0, "json_strict": 1.0, "organism": 1.0, "assay": 1.0, "sample_size": 1.0, "all_fields": 1.0}
+{"split": "test_ood", "tag": "zero_shot", "n": 80, "sec_per_example": 5.63, "json_valid": 0.825, "json_strict": 0.725, "organism": 0.113, "assay": 0.163, "sample_size": 0.487, "all_fields": 0.0}
+{"split": "test_ood", "tag": "few_shot", "n": 80, "sec_per_example": 10.22, "json_valid": 1.0, "json_strict": 1.0, "organism": 0.35, "assay": 0.438, "sample_size": 0.6, "all_fields": 0.075}
+{"split": "test_ood", "tag": "lora-main-epoch1", "n": 80, "sec_per_example": 4.63, "json_valid": 1.0, "json_strict": 1.0, "organism": 0.287, "assay": 1.0, "sample_size": 0.975, "all_fields": 0.287}
+{"split": "test_ood", "tag": "lora-main-epoch2", "n": 80, "sec_per_example": 4.63, "json_valid": 1.0, "json_strict": 1.0, "organism": 0.275, "assay": 1.0, "sample_size": 0.95, "all_fields": 0.275}
+{"split": "test_id", "tag": "lora-overfit-epoch8", "n": 80, "sec_per_example": 4.93, "json_valid": 1.0, "json_strict": 1.0, "organism": 0.975, "assay": 0.9, "sample_size": 0.975, "all_fields": 0.863}
+{"split": "test_ood", "tag": "lora-overfit-epoch8", "n": 80, "sec_per_example": 4.82, "json_valid": 1.0, "json_strict": 1.0, "organism": 0.588, "assay": 0.938, "sample_size": 0.938, "all_fields": 0.525}
+{"split": "test_id", "tag": "ollama-qwen2.5-1.5b", "n": 80, "sec_per_example": 4.98, "json_valid": 1.0, "json_strict": 0.463, "organism": 0.275, "assay": 0.762, "sample_size": 0.637, "all_fields": 0.163}
+{"split": "test_id", "tag": "ollama-llama3.2-3b", "n": 80, "sec_per_example": 8.65, "json_valid": 1.0, "json_strict": 1.0, "organism": 0.725, "assay": 0.787, "sample_size": 0.75, "all_fields": 0.475}
+{"split": "test_ood", "tag": "ollama-qwen2.5-1.5b", "n": 80, "sec_per_example": 4.67, "json_valid": 1.0, "json_strict": 0.388, "organism": 0.412, "assay": 0.738, "sample_size": 0.487, "all_fields": 0.15}
+{"split": "test_ood", "tag": "ollama-llama3.2-3b", "n": 80, "sec_per_example": 9.88, "json_valid": 1.0, "json_strict": 1.0, "organism": 0.75, "assay": 0.775, "sample_size": 0.838, "all_fields": 0.475}
