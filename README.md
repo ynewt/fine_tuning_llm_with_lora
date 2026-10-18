@@ -67,7 +67,7 @@ Developed with Python 3.12, torch 2.2.2 (CPU), transformers 4.41.2, peft 0.11.1 
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
-pip install torch==2.2.2 transformers==4.41.2 peft==0.11.1 accelerate
+pip install -r requirements.txt
 PY=python
 ```
 
